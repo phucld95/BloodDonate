@@ -8,14 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BDRegisterAccountVC : UIViewController
+@interface BDRegisterAccountVC : UIViewController <UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIButton *btConfirm;
-@property (weak, nonatomic) IBOutlet UILabel *tfUserName;
+@property (weak, nonatomic) IBOutlet UITextField *tfUsername;
 
+@property (weak, nonatomic) IBOutlet UITextField *tfPassword;
 
+@property (weak, nonatomic) IBOutlet UITextField *tfConfirmPassword;
+@property (weak, nonatomic) IBOutlet UITextField *tfAddress;
 
+@property (weak, nonatomic) IBOutlet UITextField *tfFullname;
 
+@property (weak, nonatomic) IBOutlet UITextField *tfHospital;
+
+@property (weak, nonatomic) IBOutlet UITextField *tfFreetime;
 
 
 

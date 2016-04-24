@@ -31,6 +31,24 @@
     UIBarButtonItem *leftButton =[[UIBarButtonItem alloc] initWithCustomView:Logout];
     self.navigationItem.leftBarButtonItem=leftButton;
     
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]
+                                   initWithTarget:self
+                                   action:@selector(dismissKeyboard)];
+    
+    [self.view addGestureRecognizer:tap];
+    
+    [_btConfirm addTarget:self action:@selector(acc) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.tfAddress.delegate = self;
+    self.tfFullname.delegate = self;
+    self.tfUsername.delegate = self;
+    self.tfPassword.delegate = self;
+    self.tfFreetime.delegate = self;
+    self.tfConfirmPassword.delegate = self;
+    self.tfHospital.delegate = self;
+    
+    
+    
 //    
 //    _tableView.delegate = self;
 //    _tableView.dataSource =self;
@@ -38,6 +56,27 @@
 
     
     // Do any additional setup after loading the view from its nib.
+}
+-(void)acc{
+    if ([self.tfAddress.text length] == 0 || [self.tfAddress.text length] == 0 || [self.tfPassword.text length] == 0 || [_tfFreetime.text length] == 0) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Warnning!"
+                                                        message:@"Must complete information!"
+                                                       delegate:self
+                                              cancelButtonTitle:@"Cancel"
+                                              otherButtonTitles:nil];
+        [alert show];
+        return;
+    }
+    else{
+            UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations!"
+                                                            message:@"You are already a member, go to blood test for active account!"
+                                                           delegate:self
+                                                  cancelButtonTitle:@"Cancel"
+                                                  otherButtonTitles:nil];
+            [alert show];
+            return;
+    }
+    [self btLogoutTouchUpInside];
 }
 
 -(void)btLogoutTouchUpInside{
@@ -48,12 +87,14 @@
 #pragma mark - Setup keyboard
 
 -(BOOL) textViewShouldReturn:(UITextField *)textField{
-    [self dismissKeyboard];
     return NO;
 }
 
-- (BOOL)textViewShouldBeginEditing:(UITextView *)textView{
-    textView.text = @"";
+- (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    textField.text = @"";
+    if (textField == _tfAddress || textField == _tfFullname || textField == _tfHospital || textField == _tfFreetime) {
+        
+    }
     [UIView animateWithDuration:0.25 animations:^{
         self.view.frame = CGRectMake(0, -150, self.view.frame.size.width, self.view.frame.size.height);
     }];
@@ -61,14 +102,28 @@
 }
 
 
+- (BOOL)textFieldShouldEndEditing:(UITextField *)textField {
+    [self dismissKeyboard];
+    return YES;
+}
+
+
 
 -(void)dismissKeyboard{
     [UIView animateWithDuration:0.25 animations:^{
-        self.view.frame = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+        self.view.frame = CGRectMake(0, +63, self.view.frame.size.width, self.view.frame.size.height);
     }];
-    //[self.view setFrame:CGRectMake(0,0,320,460)];
+    //[self.view setFrame:CGRectMake(0,+11,320,460)];
     
-    [self.tfCaption resignFirstResponder];
+    [self.tfAddress resignFirstResponder];
+    [self.tfFullname resignFirstResponder];
+    [self.tfUsername resignFirstResponder];
+    [self.tfPassword resignFirstResponder];
+    [self.tfFreetime resignFirstResponder];
+    [self.tfConfirmPassword resignFirstResponder];
+    [self.tfHospital resignFirstResponder];
+   
+
 }
 
 
