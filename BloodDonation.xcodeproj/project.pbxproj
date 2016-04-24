@@ -7,6 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71B3319F1CCBF8B700C4DA4C /* BDPostStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B3319D1CCBF8B700C4DA4C /* BDPostStatusCell.m */; };
+		71B331A01CCBF8B700C4DA4C /* BDPostStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B3319E1CCBF8B700C4DA4C /* BDPostStatusCell.xib */; };
+		71B331A51CCBFEF700C4DA4C /* BDGlobalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B331A31CCBFEF700C4DA4C /* BDGlobalVC.m */; };
+		71B331A61CCBFEF700C4DA4C /* BDGlobalVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B331A41CCBFEF700C4DA4C /* BDGlobalVC.xib */; };
+		71B331AB1CCBFF6A00C4DA4C /* BDStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B331A91CCBFF6A00C4DA4C /* BDStatusCell.m */; };
+		71B331AC1CCBFF6A00C4DA4C /* BDStatusCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B331AA1CCBFF6A00C4DA4C /* BDStatusCell.xib */; };
+		71B331BC1CCC0BA700C4DA4C /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331AE1CCC0BA700C4DA4C /* Bolts.framework */; };
+		71B331BD1CCC0BA700C4DA4C /* FacebookAudienceNetworkSDK-4_10-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 71B331B01CCC0BA700C4DA4C /* FacebookAudienceNetworkSDK-4_10-for-iOS.docset */; };
+		71B331BE1CCC0BA700C4DA4C /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 71B331B11CCC0BA700C4DA4C /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */; };
+		71B331BF1CCC0BA700C4DA4C /* FacebookSDK-4_10-for-iOS.docset in Resources */ = {isa = PBXBuildFile; fileRef = 71B331B21CCC0BA700C4DA4C /* FacebookSDK-4_10-for-iOS.docset */; };
+		71B331C01CCC0BA700C4DA4C /* install_docsets.sh in Resources */ = {isa = PBXBuildFile; fileRef = 71B331B31CCC0BA700C4DA4C /* install_docsets.sh */; };
+		71B331C11CCC0BA700C4DA4C /* FacebookSDKStrings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 71B331B41CCC0BA700C4DA4C /* FacebookSDKStrings.bundle */; };
+		71B331C21CCC0BA700C4DA4C /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331B51CCC0BA700C4DA4C /* FBAudienceNetwork.framework */; };
+		71B331C31CCC0BA700C4DA4C /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331B61CCC0BA700C4DA4C /* FBSDKCoreKit.framework */; };
+		71B331C41CCC0BA700C4DA4C /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331B71CCC0BA700C4DA4C /* FBSDKLoginKit.framework */; };
+		71B331C51CCC0BA700C4DA4C /* FBSDKMessengerShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331B81CCC0BA700C4DA4C /* FBSDKMessengerShareKit.framework */; };
+		71B331C61CCC0BA700C4DA4C /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71B331B91CCC0BA700C4DA4C /* FBSDKShareKit.framework */; };
+		71B331C71CCC0BA700C4DA4C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71B331BA1CCC0BA700C4DA4C /* LICENSE.txt */; };
+		71B331C81CCC0BA700C4DA4C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 71B331BB1CCC0BA700C4DA4C /* README.txt */; };
+		71B331D01CCC32C000C4DA4C /* BDRegisterAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B331CE1CCC32C000C4DA4C /* BDRegisterAccountVC.m */; };
+		71B331D11CCC32C000C4DA4C /* BDRegisterAccountVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B331CF1CCC32C000C4DA4C /* BDRegisterAccountVC.xib */; };
+		71B331D61CCC372D00C4DA4C /* BDRegissterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B331D41CCC372D00C4DA4C /* BDRegissterCell.m */; };
+		71B331D71CCC372D00C4DA4C /* BDRegissterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B331D51CCC372D00C4DA4C /* BDRegissterCell.xib */; };
+		71B331E01CCC53FE00C4DA4C /* Status.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B331DF1CCC53FE00C4DA4C /* Status.m */; };
 		71B888611CCBEBE80049FC83 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888601CCBEBE80049FC83 /* main.m */; };
 		71B888641CCBEBE80049FC83 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888631CCBEBE80049FC83 /* AppDelegate.m */; };
 		71B888671CCBEBE80049FC83 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888661CCBEBE80049FC83 /* ViewController.m */; };
@@ -15,6 +39,12 @@
 		71B8886F1CCBEBE80049FC83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B8886D1CCBEBE80049FC83 /* LaunchScreen.storyboard */; };
 		71B8887A1CCBEBE80049FC83 /* BloodDonationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888791CCBEBE80049FC83 /* BloodDonationTests.m */; };
 		71B888851CCBEBE80049FC83 /* BloodDonationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888841CCBEBE80049FC83 /* BloodDonationUITests.m */; };
+		71B888981CCBEC990049FC83 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888971CCBEC990049FC83 /* BaseViewController.m */; };
+		71B8889B1CCBECE70049FC83 /* UIColor+flat.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8889A1CCBECE70049FC83 /* UIColor+flat.m */; };
+		71B8889F1CCBEE7C0049FC83 /* BDInfomationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B8889D1CCBEE7C0049FC83 /* BDInfomationVC.m */; };
+		71B888A01CCBEE7C0049FC83 /* BDInfomationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B8889E1CCBEE7C0049FC83 /* BDInfomationVC.xib */; };
+		71B888A51CCBEEAB0049FC83 /* Cell1.m in Sources */ = {isa = PBXBuildFile; fileRef = 71B888A31CCBEEAB0049FC83 /* Cell1.m */; };
+		71B888A61CCBEEAB0049FC83 /* Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71B888A41CCBEEAB0049FC83 /* Cell1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +65,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71B3319C1CCBF8B700C4DA4C /* BDPostStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDPostStatusCell.h; sourceTree = "<group>"; };
+		71B3319D1CCBF8B700C4DA4C /* BDPostStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDPostStatusCell.m; sourceTree = "<group>"; };
+		71B3319E1CCBF8B700C4DA4C /* BDPostStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDPostStatusCell.xib; sourceTree = "<group>"; };
+		71B331A21CCBFEF700C4DA4C /* BDGlobalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDGlobalVC.h; sourceTree = "<group>"; };
+		71B331A31CCBFEF700C4DA4C /* BDGlobalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDGlobalVC.m; sourceTree = "<group>"; };
+		71B331A41CCBFEF700C4DA4C /* BDGlobalVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDGlobalVC.xib; sourceTree = "<group>"; };
+		71B331A81CCBFF6A00C4DA4C /* BDStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDStatusCell.h; sourceTree = "<group>"; };
+		71B331A91CCBFF6A00C4DA4C /* BDStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDStatusCell.m; sourceTree = "<group>"; };
+		71B331AA1CCBFF6A00C4DA4C /* BDStatusCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDStatusCell.xib; sourceTree = "<group>"; };
+		71B331AE1CCC0BA700C4DA4C /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "Facebook-SDK/Bolts.framework"; sourceTree = "<group>"; };
+		71B331B01CCC0BA700C4DA4C /* FacebookAudienceNetworkSDK-4_10-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookAudienceNetworkSDK-4_10-for-iOS.docset"; sourceTree = "<group>"; };
+		71B331B11CCC0BA700C4DA4C /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookMessengerShareKitSDK-1_3-for-iOS.docset"; sourceTree = "<group>"; };
+		71B331B21CCC0BA700C4DA4C /* FacebookSDK-4_10-for-iOS.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "FacebookSDK-4_10-for-iOS.docset"; sourceTree = "<group>"; };
+		71B331B31CCC0BA700C4DA4C /* install_docsets.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = install_docsets.sh; sourceTree = "<group>"; };
+		71B331B41CCC0BA700C4DA4C /* FacebookSDKStrings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = FacebookSDKStrings.bundle; path = "Facebook-SDK/FacebookSDKStrings.bundle"; sourceTree = "<group>"; };
+		71B331B51CCC0BA700C4DA4C /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = "Facebook-SDK/FBAudienceNetwork.framework"; sourceTree = "<group>"; };
+		71B331B61CCC0BA700C4DA4C /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "Facebook-SDK/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		71B331B71CCC0BA700C4DA4C /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "Facebook-SDK/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		71B331B81CCC0BA700C4DA4C /* FBSDKMessengerShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKMessengerShareKit.framework; path = "Facebook-SDK/FBSDKMessengerShareKit.framework"; sourceTree = "<group>"; };
+		71B331B91CCC0BA700C4DA4C /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = "Facebook-SDK/FBSDKShareKit.framework"; sourceTree = "<group>"; };
+		71B331BA1CCC0BA700C4DA4C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE.txt; path = "Facebook-SDK/LICENSE.txt"; sourceTree = "<group>"; };
+		71B331BB1CCC0BA700C4DA4C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.txt; path = "Facebook-SDK/README.txt"; sourceTree = "<group>"; };
+		71B331CD1CCC32C000C4DA4C /* BDRegisterAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRegisterAccountVC.h; sourceTree = "<group>"; };
+		71B331CE1CCC32C000C4DA4C /* BDRegisterAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRegisterAccountVC.m; sourceTree = "<group>"; };
+		71B331CF1CCC32C000C4DA4C /* BDRegisterAccountVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDRegisterAccountVC.xib; sourceTree = "<group>"; };
+		71B331D31CCC372D00C4DA4C /* BDRegissterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDRegissterCell.h; sourceTree = "<group>"; };
+		71B331D41CCC372D00C4DA4C /* BDRegissterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDRegissterCell.m; sourceTree = "<group>"; };
+		71B331D51CCC372D00C4DA4C /* BDRegissterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDRegissterCell.xib; sourceTree = "<group>"; };
+		71B331DE1CCC53FE00C4DA4C /* Status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Status.h; sourceTree = "<group>"; };
+		71B331DF1CCC53FE00C4DA4C /* Status.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Status.m; sourceTree = "<group>"; };
 		71B8885C1CCBEBE80049FC83 /* BloodDonation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodDonation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B888601CCBEBE80049FC83 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		71B888621CCBEBE80049FC83 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +111,16 @@
 		71B888801CCBEBE80049FC83 /* BloodDonationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodDonationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B888841CCBEBE80049FC83 /* BloodDonationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BloodDonationUITests.m; sourceTree = "<group>"; };
 		71B888861CCBEBE80049FC83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71B888961CCBEC990049FC83 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		71B888971CCBEC990049FC83 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		71B888991CCBECE70049FC83 /* UIColor+flat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+flat.h"; sourceTree = "<group>"; };
+		71B8889A1CCBECE70049FC83 /* UIColor+flat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+flat.m"; sourceTree = "<group>"; };
+		71B8889C1CCBEE7C0049FC83 /* BDInfomationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDInfomationVC.h; sourceTree = "<group>"; };
+		71B8889D1CCBEE7C0049FC83 /* BDInfomationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDInfomationVC.m; sourceTree = "<group>"; };
+		71B8889E1CCBEE7C0049FC83 /* BDInfomationVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BDInfomationVC.xib; sourceTree = "<group>"; };
+		71B888A21CCBEEAB0049FC83 /* Cell1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell1.h; sourceTree = "<group>"; };
+		71B888A31CCBEEAB0049FC83 /* Cell1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell1.m; sourceTree = "<group>"; };
+		71B888A41CCBEEAB0049FC83 /* Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +128,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B331BC1CCC0BA700C4DA4C /* Bolts.framework in Frameworks */,
+				71B331C31CCC0BA700C4DA4C /* FBSDKCoreKit.framework in Frameworks */,
+				71B331C61CCC0BA700C4DA4C /* FBSDKShareKit.framework in Frameworks */,
+				71B331C51CCC0BA700C4DA4C /* FBSDKMessengerShareKit.framework in Frameworks */,
+				71B331C41CCC0BA700C4DA4C /* FBSDKLoginKit.framework in Frameworks */,
+				71B331C21CCC0BA700C4DA4C /* FBAudienceNetwork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +154,75 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		71B331A11CCBFECA00C4DA4C /* GlobalView */ = {
+			isa = PBXGroup;
+			children = (
+				71B331A21CCBFEF700C4DA4C /* BDGlobalVC.h */,
+				71B331A31CCBFEF700C4DA4C /* BDGlobalVC.m */,
+				71B331A41CCBFEF700C4DA4C /* BDGlobalVC.xib */,
+			);
+			name = GlobalView;
+			sourceTree = "<group>";
+		};
+		71B331A71CCBFF2300C4DA4C /* GlobalCell */ = {
+			isa = PBXGroup;
+			children = (
+				71B331A81CCBFF6A00C4DA4C /* BDStatusCell.h */,
+				71B331A91CCBFF6A00C4DA4C /* BDStatusCell.m */,
+				71B331AA1CCBFF6A00C4DA4C /* BDStatusCell.xib */,
+			);
+			name = GlobalCell;
+			sourceTree = "<group>";
+		};
+		71B331AD1CCC0B9300C4DA4C /* FacebookSDK */ = {
+			isa = PBXGroup;
+			children = (
+				71B331AE1CCC0BA700C4DA4C /* Bolts.framework */,
+				71B331AF1CCC0BA700C4DA4C /* DocSets */,
+				71B331B41CCC0BA700C4DA4C /* FacebookSDKStrings.bundle */,
+				71B331B51CCC0BA700C4DA4C /* FBAudienceNetwork.framework */,
+				71B331B61CCC0BA700C4DA4C /* FBSDKCoreKit.framework */,
+				71B331B71CCC0BA700C4DA4C /* FBSDKLoginKit.framework */,
+				71B331B81CCC0BA700C4DA4C /* FBSDKMessengerShareKit.framework */,
+				71B331B91CCC0BA700C4DA4C /* FBSDKShareKit.framework */,
+				71B331BA1CCC0BA700C4DA4C /* LICENSE.txt */,
+				71B331BB1CCC0BA700C4DA4C /* README.txt */,
+			);
+			name = FacebookSDK;
+			sourceTree = "<group>";
+		};
+		71B331AF1CCC0BA700C4DA4C /* DocSets */ = {
+			isa = PBXGroup;
+			children = (
+				71B331B01CCC0BA700C4DA4C /* FacebookAudienceNetworkSDK-4_10-for-iOS.docset */,
+				71B331B11CCC0BA700C4DA4C /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset */,
+				71B331B21CCC0BA700C4DA4C /* FacebookSDK-4_10-for-iOS.docset */,
+				71B331B31CCC0BA700C4DA4C /* install_docsets.sh */,
+			);
+			name = DocSets;
+			path = "Facebook-SDK/DocSets";
+			sourceTree = "<group>";
+		};
+		71B331CC1CCC327B00C4DA4C /* DegissView */ = {
+			isa = PBXGroup;
+			children = (
+				71B331CD1CCC32C000C4DA4C /* BDRegisterAccountVC.h */,
+				71B331CE1CCC32C000C4DA4C /* BDRegisterAccountVC.m */,
+				71B331CF1CCC32C000C4DA4C /* BDRegisterAccountVC.xib */,
+			);
+			name = DegissView;
+			sourceTree = "<group>";
+		};
+		71B331D21CCC32F400C4DA4C /* RegisterCell */ = {
+			isa = PBXGroup;
+			children = (
+				71B331D31CCC372D00C4DA4C /* BDRegissterCell.h */,
+				71B331D41CCC372D00C4DA4C /* BDRegissterCell.m */,
+				71B331D51CCC372D00C4DA4C /* BDRegissterCell.xib */,
+			);
+			name = RegisterCell;
+			sourceTree = "<group>";
+		};
 		71B888531CCBEBE80049FC83 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +246,11 @@
 		71B8885E1CCBEBE80049FC83 /* BloodDonation */ = {
 			isa = PBXGroup;
 			children = (
-				71B888621CCBEBE80049FC83 /* AppDelegate.h */,
-				71B888631CCBEBE80049FC83 /* AppDelegate.m */,
-				71B888651CCBEBE80049FC83 /* ViewController.h */,
-				71B888661CCBEBE80049FC83 /* ViewController.m */,
-				71B888681CCBEBE80049FC83 /* Main.storyboard */,
+				71B888951CCBEC290049FC83 /* Library */,
+				71B888941CCBEC190049FC83 /* Base */,
+				71B888931CCBEC130049FC83 /* View */,
+				71B888921CCBEC0A0049FC83 /* Model */,
 				71B8886B1CCBEBE80049FC83 /* Assets.xcassets */,
-				71B8886D1CCBEBE80049FC83 /* LaunchScreen.storyboard */,
-				71B888701CCBEBE80049FC83 /* Info.plist */,
 				71B8885F1CCBEBE80049FC83 /* Supporting Files */,
 			);
 			path = BloodDonation;
@@ -117,6 +259,13 @@
 		71B8885F1CCBEBE80049FC83 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				71B888621CCBEBE80049FC83 /* AppDelegate.h */,
+				71B888631CCBEBE80049FC83 /* AppDelegate.m */,
+				71B888651CCBEBE80049FC83 /* ViewController.h */,
+				71B888661CCBEBE80049FC83 /* ViewController.m */,
+				71B888681CCBEBE80049FC83 /* Main.storyboard */,
+				71B8886D1CCBEBE80049FC83 /* LaunchScreen.storyboard */,
+				71B888701CCBEBE80049FC83 /* Info.plist */,
 				71B888601CCBEBE80049FC83 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +287,62 @@
 				71B888861CCBEBE80049FC83 /* Info.plist */,
 			);
 			path = BloodDonationUITests;
+			sourceTree = "<group>";
+		};
+		71B888921CCBEC0A0049FC83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				71B331DE1CCC53FE00C4DA4C /* Status.h */,
+				71B331DF1CCC53FE00C4DA4C /* Status.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		71B888931CCBEC130049FC83 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				71B331D21CCC32F400C4DA4C /* RegisterCell */,
+				71B331CC1CCC327B00C4DA4C /* DegissView */,
+				71B331A71CCBFF2300C4DA4C /* GlobalCell */,
+				71B331A11CCBFECA00C4DA4C /* GlobalView */,
+				71B888A11CCBEE880049FC83 /* InfomationView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		71B888941CCBEC190049FC83 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				71B888961CCBEC990049FC83 /* BaseViewController.h */,
+				71B888971CCBEC990049FC83 /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		71B888951CCBEC290049FC83 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				71B331AD1CCC0B9300C4DA4C /* FacebookSDK */,
+				71B888991CCBECE70049FC83 /* UIColor+flat.h */,
+				71B8889A1CCBECE70049FC83 /* UIColor+flat.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		71B888A11CCBEE880049FC83 /* InfomationView */ = {
+			isa = PBXGroup;
+			children = (
+				71B8889C1CCBEE7C0049FC83 /* BDInfomationVC.h */,
+				71B8889D1CCBEE7C0049FC83 /* BDInfomationVC.m */,
+				71B8889E1CCBEE7C0049FC83 /* BDInfomationVC.xib */,
+				71B888A21CCBEEAB0049FC83 /* Cell1.h */,
+				71B888A31CCBEEAB0049FC83 /* Cell1.m */,
+				71B888A41CCBEEAB0049FC83 /* Cell1.xib */,
+				71B3319C1CCBF8B700C4DA4C /* BDPostStatusCell.h */,
+				71B3319D1CCBF8B700C4DA4C /* BDPostStatusCell.m */,
+				71B3319E1CCBF8B700C4DA4C /* BDPostStatusCell.xib */,
+			);
+			name = InfomationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +451,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B888A61CCBEEAB0049FC83 /* Cell1.xib in Resources */,
+				71B331BF1CCC0BA700C4DA4C /* FacebookSDK-4_10-for-iOS.docset in Resources */,
+				71B331A01CCBF8B700C4DA4C /* BDPostStatusCell.xib in Resources */,
 				71B8886F1CCBEBE80049FC83 /* LaunchScreen.storyboard in Resources */,
+				71B331D11CCC32C000C4DA4C /* BDRegisterAccountVC.xib in Resources */,
+				71B331C81CCC0BA700C4DA4C /* README.txt in Resources */,
+				71B331BE1CCC0BA700C4DA4C /* FacebookMessengerShareKitSDK-1_3-for-iOS.docset in Resources */,
+				71B331BD1CCC0BA700C4DA4C /* FacebookAudienceNetworkSDK-4_10-for-iOS.docset in Resources */,
+				71B331C71CCC0BA700C4DA4C /* LICENSE.txt in Resources */,
+				71B331C01CCC0BA700C4DA4C /* install_docsets.sh in Resources */,
+				71B331AC1CCBFF6A00C4DA4C /* BDStatusCell.xib in Resources */,
+				71B331D71CCC372D00C4DA4C /* BDRegissterCell.xib in Resources */,
+				71B331C11CCC0BA700C4DA4C /* FacebookSDKStrings.bundle in Resources */,
 				71B8886C1CCBEBE80049FC83 /* Assets.xcassets in Resources */,
+				71B331A61CCBFEF700C4DA4C /* BDGlobalVC.xib in Resources */,
+				71B888A01CCBEE7C0049FC83 /* BDInfomationVC.xib in Resources */,
 				71B8886A1CCBEBE80049FC83 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,9 +492,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B8889F1CCBEE7C0049FC83 /* BDInfomationVC.m in Sources */,
+				71B888A51CCBEEAB0049FC83 /* Cell1.m in Sources */,
 				71B888671CCBEBE80049FC83 /* ViewController.m in Sources */,
+				71B888981CCBEC990049FC83 /* BaseViewController.m in Sources */,
 				71B888641CCBEBE80049FC83 /* AppDelegate.m in Sources */,
+				71B331AB1CCBFF6A00C4DA4C /* BDStatusCell.m in Sources */,
+				71B3319F1CCBF8B700C4DA4C /* BDPostStatusCell.m in Sources */,
+				71B331A51CCBFEF700C4DA4C /* BDGlobalVC.m in Sources */,
 				71B888611CCBEBE80049FC83 /* main.m in Sources */,
+				71B8889B1CCBECE70049FC83 /* UIColor+flat.m in Sources */,
+				71B331D61CCC372D00C4DA4C /* BDRegissterCell.m in Sources */,
+				71B331D01CCC32C000C4DA4C /* BDRegisterAccountVC.m in Sources */,
+				71B331E01CCC53FE00C4DA4C /* Status.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +645,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BloodDonation/Facebook-SDK",
+				);
 				INFOPLIST_FILE = BloodDonation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lephuc.BloodDonation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +661,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BloodDonation/Facebook-SDK",
+				);
 				INFOPLIST_FILE = BloodDonation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lephuc.BloodDonation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -499,6 +738,7 @@
 				71B8888B1CCBEBE80049FC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B8888C1CCBEBE80049FC83 /* Build configuration list for PBXNativeTarget "BloodDonationTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +747,7 @@
 				71B8888E1CCBEBE80049FC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		71B8888F1CCBEBE80049FC83 /* Build configuration list for PBXNativeTarget "BloodDonationUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +756,7 @@
 				71B888911CCBEBE80049FC83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
