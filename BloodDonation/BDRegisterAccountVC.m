@@ -93,11 +93,11 @@
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
     textField.text = @"";
     if (textField == _tfAddress || textField == _tfFullname || textField == _tfHospital || textField == _tfFreetime) {
-        
+        [UIView animateWithDuration:0.25 animations:^{
+            self.view.frame = CGRectMake(0, -150, self.view.frame.size.width, self.view.frame.size.height);
+        }];
     }
-    [UIView animateWithDuration:0.25 animations:^{
-        self.view.frame = CGRectMake(0, -150, self.view.frame.size.width, self.view.frame.size.height);
-    }];
+    
     return YES;
 }
 
